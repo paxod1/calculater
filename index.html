@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div class="main">
+         <div class="calc">
+               <div class="output">
+                 <input type="text" id="screen">
+                </div>
+                <div class="buttons">
+                    <button onclick="clearscreen()" class="but">Clear</button>
+                    </button>
+                    <div class="row">
+                        <button onclick="buttonclick(7)" class="but">7</button>
+                        <button class="but" onclick="buttonclick(8)">8</button>
+                        <button class="but" onclick="buttonclick(9)">9</button>
+                        <button class="but" onclick="buttonaction('+')">+</button>
+                    </div>
+                     <div class="row">
+                        <button class="but" onclick="buttonclick(4)">4</button>
+                        <button class="but" onclick="buttonclick(5)">5</button>
+                        <button class="but" onclick="buttonclick(6)">6</button>
+                        <button class="but" onclick="buttonaction('-')">-</button>
+                      </div>
+                      <div class="row">
+                        <button class="but" onclick="buttonclick(1)">1</button>
+                        <button class="but" onclick="buttonclick(2)">2</button>
+                        <button class="but" onclick="buttonclick(3)">3</button>
+                        <button class="but" onclick="buttonaction('*')">x</button>
+                        </div>
+                     <div class="row">
+                        <button class="but" onclick="buttonclick('.')">.</button>
+                        <button class="but" onclick="buttonclick(0)">0</button>
+                        <button class="but" onclick="equalclick()">=</button>
+                        <button class="but" onclick="buttonaction('/')">/</button>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <script src="scrict.js"></script>
+    </body>
+</html>
